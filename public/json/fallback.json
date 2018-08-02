@@ -1,0 +1,9 @@
+{
+	"articles": [
+	{
+		"title": "sakshi'working on new missiles'",
+		"description": "US intelligence leaks suggest the North may be building ballistic missiles, despite recent pledges.",
+		"url": "",
+		"urlToImage": "{{ asset('images/post.jpg') }}"
+	}]
+}	

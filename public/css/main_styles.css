@@ -1070,6 +1070,7 @@ section
 {
 	border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+    height: 300px;
 }  
 .card-title a
 {
@@ -1144,7 +1145,7 @@ section
 .card_large_with_background,
 .card_large_with_image
 {
-	width: 555px;
+	width: 800px;
 	/*height: 325px;*/
 }
 .card_small_no_image,
