@@ -43,20 +43,22 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/main_styles.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
-    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/contact.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/post_responsive.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/contact_responsive.css') }}">
+    <!-- <link rel="manifest" href="manifest.json"> -->
 
     @yield('styles')
 
 </head>
 <body>
     <div class="super_container">
-        @include('layouts.nav')
-        
+            @include('layouts.nav')
+
         @yield('content')
-
     </div>
-    @include('layouts.footer')
-
+        @include('layouts.footer')
+        
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('css/bootstrap4/popper.js') }}"></script>
     <script src="{{ asset('css/bootstrap4/bootstrap.min.js') }}"></script>
@@ -67,8 +69,11 @@
     <script src="{{ asset('plugins/masonry/images_loaded.js') }}"></script>
     <script src="{{ asset('plugins/parallax-js-master/parallax.min.js') }}"></script>
     <script src="{{ asset('js/post.js') }}"></script>
+    <script src="{{ asset('js/contact.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
     <script src="{{ asset('js/web-app.js') }}"></script>
-    <script src="{{ asset('js/sw.js') }}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- <script src="{{ asset('js/sw.js') }}"></script> -->
 </body>
 </html>

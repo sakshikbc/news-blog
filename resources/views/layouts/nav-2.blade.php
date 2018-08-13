@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header black">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -9,7 +9,7 @@
                             <li class="active"><a href="/">Home</a></li>
                             <li><a href="/about">About Us</a></li>
                             <li><a href="/pricing">Pricing</a></li>
-                            <!-- <li><a href="/social-media">Social Media</a></li> -->
+                            <li><a href="/social-media">Social Media</a></li>
                             <li><a href="/blog">Latest News</a></li>
                             <li><a href="/contact-us">Contact Us</a></li>
                         </ul>
@@ -50,7 +50,7 @@
             <li class="menu_mm"><a href="index.html">home</a></li>
             <li class="menu_mm"><a href="/about">About Us</a></li>
             <li class="menu_mm"><a href="/pricing">Pricing</a></li>
-            <!-- <li class="menu_mm"><a href="/social-media">Social Media</a></li> -->
+            <li class="menu_mm"><a href="/social-media">Social Media</a></li>
             <li class="menu_mm"><a href="/blog">Latest News</a></li>
             <li class="menu_mm"><a href="/contact-us">Contact Us</a></li>
         </ul>
