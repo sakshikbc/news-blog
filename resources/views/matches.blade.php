@@ -18,19 +18,21 @@
         <div class="center">
             <h1><center>Matches</center></h1>
         </div>
-        <a href="/match-detail">
-            <div class="sec col-lg-12 col-12">
-                <div class="team-1">
-                    India
-                </div>
-                <div class="between">
-                    V/s
-                </div>
-                <div class="team-2">
-                    Pakistan
-                </div>
-            </div>
-        </a>
+            <?php foreach ($matches as $match): ?>
+                <a href="{{ route('match-detail.show', $match->id) }}">
+                    <div class="sec col-lg-12 col-12">
+                        <div class="team-1">
+                            {{ $match->team_1 }}
+                        </div>
+                        <div class="between">
+                            V/s
+                        </div>
+                        <div class="team-2">
+                            {{ $match->team_2 }}
+                        </div>
+                    </div>
+                </a>
+            <?php endforeach ?>
     </div>
 </div>
 @endsection

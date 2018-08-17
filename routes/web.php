@@ -32,9 +32,5 @@ Route::get('/post', function () {
 Route::get('/contact-us', function () {
     return view('contact-us');
 });
-Route::get('/matches', function () {
-    return view('matches');
-});
-Route::get('/match-detail', function () {
-    return view('match-detail');
-});
+Route::get('/matches', 'MatchController@index');
+Route::get('/match-detail/{id}', 'MatchController@show')->name('match-detail.show');
