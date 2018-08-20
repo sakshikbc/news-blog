@@ -232,10 +232,11 @@
     
     <!-- Page Content -->
     <div class="container">
+        <h2 class="mb-3 mt-5 text-center text-black">We Provide</h2>
         <div class="row">
-            <div class="col-4-lg ml-5 mr-5 mb-10 mt-10">
+            <div class="col-4-lg ml-5 mr-5 mb-5 mt-5">
                 <a href="#">
-                    <div class="card" style="width:18rem;">
+                    <div class="card shadow-1" style="width:18rem;">
                         <img src="{{ asset('images/netellar.jpeg')}}" alt="card one" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">
@@ -248,9 +249,9 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4-lg ml-5 mr-5 mb-10 mt-10">
+            <div class="col-4-lg ml-5 mr-5 mb-5 mt-5">
                 <a href="/matches">
-                    <div class="card" style="width:18rem;">
+                    <div class="card shadow-1" style="width:18rem;">
                         <img src="{{ asset('images/2.jpg')}}" alt="card one" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">
@@ -263,9 +264,9 @@
                     </div>
                 </a>
             </div>
-            <div class="col-4-lg ml-5 mb-10 mt-10">
+            <div class="col-4-lg ml-5 mb-5 mt-5">
                 <a href="#">
-                    <div class="card" style="width:18rem;">
+                    <div class="card shadow-1" style="width:18rem;">
                         <img src="{{ asset('images/3.jpg')}}" alt="card one" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">
@@ -280,6 +281,103 @@
             </div>
         </div>
     </div>
+
+    <div class="features-container section-container bg-white py-5 mb-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 features section-description wow fadeIn text-center mb-2">
+                    <h2 class="mb-3">Our Services</h2>
+                    <div class="divider-1 wow fadeInUp"><span></span></div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 features-box wow fadeInUp text-center">
+                    <div class="features-box-icon">
+                        <span aria-hidden="true" class="icon_cogs"></span>
+                    </div>
+                    <h3>Easy To Use</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="col-sm-4 features-box wow fadeInDown text-center">
+                    <div class="features-box-icon">
+                        <span aria-hidden="true" class="icon_pencil"></span>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="col-sm-4 features-box wow fadeInUp text-center">
+                    <div class="features-box-icon">
+                        <span aria-hidden="true" class="fa fa-globe"></span>
+                    </div>
+                    <h3>Bootstrap Engine</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-white py-5 mb-10">
+        <h2 class="mb-5 text-center text-black underline">Latest News</h2>
+        <div class="flex justify-between news-mobile">
+        <div class="max-w-xs rounded overflow-hidden shadow-lg mx-auto mb-4">
+            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-grey-darker text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+            <div class="px-6 py-4">
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            </div>
+        </div>
+        <div class="max-w-xs rounded overflow-hidden shadow-lg mx-auto mb-4">
+            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-grey-darker text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+            <div class="px-6 py-4">
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            </div>
+        </div>
+        <div class="max-w-xs rounded overflow-hidden shadow-lg mx-auto mb-4">
+            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-grey-darker text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+            <div class="px-6 py-4">
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            </div>
+        </div>
+        <div class="max-w-xs rounded overflow-hidden shadow-lg mx-auto mb-4">
+            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p class="text-grey-darker text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+            <div class="px-6 py-4">
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            </div>
+        </div>
+    </div>
+    </div>
+
 
     
 @endsection

@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Match extends Model
 {
     public $table = 'match';
+    public $guarded = ['id'];
 
     public function team()
     {

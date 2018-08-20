@@ -10,6 +10,11 @@ use Illuminate\Http\Request;
 
 class MatchController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => ['index', 'show']]);
+    }
     /**
      * Display a listing of the resource.
      *
@@ -29,7 +34,8 @@ class MatchController extends Controller
      */
     public function create()
     {
-        //
+        $teams = Team::get();
+        return view('match.create', compact('teams'));
     }
 
     /**
@@ -40,7 +46,15 @@ class MatchController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $match_detail = Match::create([
+            'team_1' => $request->team_1,
+            'team_2' => $request->team_2,
+            'match_detail' => $request->match_detail,
+            'match_date' => $request->match_date,
+            'visitorCount' => 1,
+            'visitorNumber' => 1
+        ]);
+        return $match_detail;
     }
 
     /**

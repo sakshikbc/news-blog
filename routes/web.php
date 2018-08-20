@@ -32,5 +32,13 @@ Route::get('/post', function () {
 Route::get('/contact-us', function () {
     return view('contact-us');
 });
+Route::get('/test', function () {
+    return view('test');
+});
+Route::get('/match-details', 'MatchController@create');
+Route::post('/match-details', 'MatchController@store');
 Route::get('/matches', 'MatchController@index');
 Route::get('/match-detail/{id}', 'MatchController@show')->name('match-detail.show');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,6 +1,13 @@
 @extends('layouts.master')
 @section('styles')
     <link rel="stylesheet" type="text/css" href="{{ asset('css/post.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/post_responsive.css') }}">
+    <style type="text/css">
+        @media only screen and (max-width: 575px) 
+            .show.flex {
+                flex-direction: column;
+            }
+    </style>
 @stop
 @section('content')
 <div class="home">
@@ -18,7 +25,7 @@
         <div class="heading">
             <h2><center>Our Pricing</center></h2>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-4-lg ml-5 mr-5 mb-10 mt-5">
                 <a href="#">
                     <div class="card" style="width:18rem;">
@@ -64,7 +71,14 @@
                     </div>
                 </a>
             </div>
+        </div> -->
+        <div class="show flex">    
+            @include('layouts.plan', ['name' => 'Monthly'])
+            @include('layouts.plan', ['name' => 'Yearly'])
+            @include('layouts.plan', ['name' => 'Annualy'])
+            @include('layouts.plan', ['name' => 'Monthly'])
         </div>
     </div>
 </div>
+
 @endsection

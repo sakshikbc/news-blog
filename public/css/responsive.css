@@ -124,9 +124,9 @@
 	.sidebar_slider_nav
 	{
 		position: absolute;
-	    top: 37px;
-	    right: auto;
-	    left: 0;
+		top: 37px;
+		right: auto;
+		left: 0;
 	}
 }
 
@@ -213,9 +213,9 @@
 	.sidebar_slider_nav
 	{
 		position: absolute;
-	    top: 5px;
-	    right: 0;
-	    left: auto;
+		top: 5px;
+		right: 0;
+		left: auto;
 	}
 	.sidebar_background
 	{
@@ -397,6 +397,12 @@
 	{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.show {
+		flex-direction: column;
+	}
+	.news-mobile {
+		flex-direction: column;
 	}
 }
 

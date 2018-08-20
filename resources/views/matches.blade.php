@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('styles')
     <link rel="stylesheet" type="text/css" href="{{ asset('css/post.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/post_responsive.css') }}">
 @stop
 @section('content')
 <div class="home">

@@ -20,5 +20,8 @@
         "sw-precache-webpack-plugin": "^0.11.5",
         "vue": "^2.5.7",
         "webpack": "^1.15.0"
+    },
+    "dependencies": {
+        "froala-editor": "^2.8.4"
     }
 }

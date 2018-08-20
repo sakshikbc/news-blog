@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('styles')
     <link rel="stylesheet" type="text/css" href="{{ asset('css/post.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/post_responsive.css') }}">
 @stop
 @section('content')
 <div class="home">
@@ -44,12 +45,13 @@
                 <?php endforeach ?>
             </ul>
         </div>
-
+        <br><br><br>
+        <br><hr><br><br>
         <div class="heading">
             <h2><center>MATCH DETAILS</center></h2>
         </div>
         <div>
-            {{ $match->match_detail }}
+            {!! $match->match_detail !!}
         </div>
 
         <div class="heading mt-5 mb-4">
@@ -63,15 +65,7 @@
                 <?php foreach ($safe as $team): ?>
                     <li>{{ $team->player->player_name }}</li>
                 <?php endforeach ?>
-                <?php foreach ($safe as $team): ?>
-                    <li>{{ $team->player->player_name }}</li>
-                <?php endforeach ?>
-                <?php foreach ($safe as $team): ?>
-                    <li>{{ $team->player->player_name }}</li>
-                <?php endforeach ?>
-                <?php foreach ($safe as $team): ?>
-                    <li>{{ $team->player->player_name }}</li>
-                <?php endforeach ?>
+                
             </ul>
         </div>
         <div class="col-lg-12 top-11-right mb-5"><div class="second-heading"><b>Risky Captain Choices</b></div>
@@ -81,6 +75,7 @@
                 <?php endforeach ?>
             </ul>
         </div>
+        <br><br><br><br>
     </div>
 </div>
 @endsection
